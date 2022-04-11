@@ -38,10 +38,10 @@
                             <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Quienes somos</a>
+                            <a class="nav-link" href="#quien">Quienes somos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Destacados</a>
+                            <a class="nav-link" href="#carouselExampleControls">Destacados</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Contacto</a>
@@ -51,33 +51,50 @@
             </div>
         </nav>
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="...">
+                </div>
             </div>
-            <div class="carousel-item">
-                <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="...">
-            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-        
+
     </header>
 
-    <section class="bg-black">
-        
+    <section class="bg-black text-center p-5" id="quien">
+        <h2>¿Quienes somos?</h2>
+        <hr>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <span class="icono"><i class="fa-solid fa-plane fa-2x"></i></span>
+                    <p class="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur maxime dicta neque excepturi illo culpa laudantium! Alias eligendi labore officia, consectetur velit, atque dicta unde corrupti, hic error cum dignissimos?Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur maxime dicta neque excepturi illo culpa laudantium! Alias eligendi labore officia, consectetur velit, atque dicta unde corrupti, hic error cum dignissimos?</p>
+                </div>
+                <div class="col">
+                    <p class="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur maxime dicta neque excepturi illo culpa laudantium! Alias eligendi labore officia, consectetur velit, atque dicta unde corrupti, hic error cum dignissimos?Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur maxime dicta neque excepturi illo culpa laudantium! Alias eligendi labore officia, consectetur velit, atque dicta unde corrupti, hic error cum dignissimos?</p>
+                    <span class="icono"><i class="fa-solid fa-mountain fa-2x"></i></span>
+                </div>
+                <div class="col">
+                    <span class="icono"><i class="fa-solid fa-route fa-2x"></i></span>
+                    <p class="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur maxime dicta neque excepturi illo culpa laudantium! Alias eligendi labore officia, consectetur velit, atque dicta unde corrupti, hic error cum dignissimos?Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur maxime dicta neque excepturi illo culpa laudantium! Alias eligendi labore officia, consectetur velit, atque dicta unde corrupti, hic error cum dignissimos?</p>
+                </div>
+            </div>
+        </div>
     </section>
 
 
