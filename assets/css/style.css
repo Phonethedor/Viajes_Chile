@@ -24,3 +24,7 @@ hr{
     text-align: center;
     display: block;
 }
+
+.imagen-carta{
+    height: 10rem;
+}
